@@ -3,7 +3,7 @@ import pytesseract
 
 
 # Path to Tesseract executable (change this to your Tesseract installation path)
-pytesseract.pytesseract.tesseract_cmd = r'c:\users\venki\appdata\local\programs\python\python312\lib\site-packages'
+pytesseract.pytesseract.tesseract_cmd = r'<path of pytesseract cmd>'
 def extract_text_from_image(image_path):
     # Read the image using OpenCV
     image = cv2.imread(image_path)
